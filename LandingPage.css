@@ -1,0 +1,100 @@
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;width: 96%;
+    top: 0;
+}
+.head1 {
+    font-weight: bold;  
+}
+.anc {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.page1{
+    background-color: rgb(43, 183, 226);
+}
+/* Styles for page sections */
+section {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styles for login/sign-up buttons */
+button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for about section */
+.page2 {
+    text-align: center;
+    background-color: rgb(43, 183, 226);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.about-page{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.abou-im{ 
+    border-radius:50%;
+}
+.about-p{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-style: bold;
+    padding-left: 20px;
+ 
+    font-weight: 400;
+    font: optional;
+}
+
+/* Styles for services section */
+.page3 {
+    text-align: center;
+    background-color: rgb(43, 183, 226);
+}
+.purpose {
+    width: 70%;
+    height:100%;
+    border:solid 1px red ;
+    background-color: bisque;
+    padding: 10px 5px 50px 10px; 
+    margin:10px;
+    font-weight: 600;  
+}
+.page3p{
+   
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+h2{
+    color:brown;
+}
+/* Styles for help section */
+.page4 {
+    text-align: center;
+    background-color: rgb(43, 183, 226);
+}
+.help-img {
+    margin-top: 20px;
+}
